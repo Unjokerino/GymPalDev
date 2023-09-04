@@ -1,5 +1,12 @@
-import GetStartedScreen from './screens/GetStartedScreen';
+import { StatusBar } from "expo-status-bar";
+
+import Navigation from "./src/navigation";
 
 export default function App() {
-  return <GetStartedScreen />;
+  return (
+    <>
+      <Navigation />
+      <StatusBar style="auto" />
+    </>
+  );
 }
