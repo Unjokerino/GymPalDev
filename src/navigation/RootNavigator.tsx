@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import BottomTabNavigator from "./BottomTabNavigator";
+import BottomTabNavigator from './BottomTabNavigator';
+import GetStartedScreen from '../screens/GetStartedScreen';
 
-import { RootStackParamList, rootScreens } from "./types";
+import { RootStackParamList, rootScreens } from './types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 

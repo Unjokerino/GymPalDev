@@ -1,3 +1,4 @@
-import EmptyPage from "./EmptyPage";
+import EmptyPage from './EmptyPage';
+import GetStartedScreen from './GetStartedScreen';
 
-export { EmptyPage };
+export { EmptyPage, GetStartedScreen };
