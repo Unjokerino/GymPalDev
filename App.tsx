@@ -1,5 +1,5 @@
-import GetStarted from './screens/GetStarted';
+import GetStartedScreen from './screens/GetStartedScreen';
 
 export default function App() {
-  return <GetStarted />;
+  return <GetStartedScreen />;
 }
