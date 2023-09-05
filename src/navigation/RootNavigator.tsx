@@ -8,10 +8,18 @@ import GetStartedScreen from '../screens/GetStartedScreen';
 import { RootStackParamList, rootScreens } from './types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
+const StackInner = createNativeStackNavigator();
 
 const RootNavigator = () => {
   return (
     <Stack.Navigator>
+      <StackInner.Screen
+        options={{
+          headerShown: false,
+        }}
+        name="GetStarted"
+        component={GetStartedScreen}
+      />
       <Stack.Screen
         options={{
           headerShown: false,
