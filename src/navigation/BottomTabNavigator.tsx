@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import { EmptyPage } from "../screens";
+import { EmptyPage } from '../screens';
 
-import { rootScreens } from "./types";
+import { rootScreens } from './types';
 
 const Tab = createBottomTabNavigator();
 
